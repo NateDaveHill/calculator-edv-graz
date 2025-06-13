@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js" defer></script>
+    <title>Card with Buttons and Text Field</title>
     <link rel="stylesheet" href="style.css">
-    <title>Taschenrechner</title>
 </head>
 <body>
+    <div class="card">
+        <h2>Calculator</h2>
+        <div class="card-content">
+            <input type="text" placeholder="0" class="card-input">
+            <div class="button-group">
+                <button class="card-button" data-operator="ac">AC</button>
+                <button class="card-button" data-operator="+/-">+/-</button>
+                <button class="card-button" data-operator="%">%</button>
+                <button class="card-button" data-operator="/">/</button>
+                <button class="card-button" data-numeric="7">7</button>
+                <button class="card-button" data-numeric="8">8</button>
+                <button class="card-button" data-numeric="9">9</button>
+                <button class="card-button" data-operator="*">*</button>
+                <button class="card-button" data-numeric="4">4</button>
+                <button class="card-button" data-numeric="5">5</button>
+                <button class="card-button" data-numeric="6">6</button>
+                <button class="card-button" data-operator="-">-</button>
+                <button class="card-button" data-numeric="1">1</button>
+                <button class="card-button" data-numeric="2">2</button>
+                <button class="card-button" data-numeric="3">3</button>
+                <button class="card-button" data-operator="+">+</button>
+                <button class="card-button" data-numeric="0">0</button>
+                <button class="card-button" data-operator=".">.</button>
+                <button class="card-button" data-operator="=">=</button>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
