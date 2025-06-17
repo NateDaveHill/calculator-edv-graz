@@ -48,3 +48,30 @@ body {
 .card-button:hover {
     background: #0056b3;
 }
+
+.ac-button {
+    grid-row: span 2; 
+    background: #ffc107; 
+    color: black; 
+    font-size: 18px;
+}
+
+.operator-button {
+    background: #ffc107; 
+    color: black; 
+    font-size: 18px;
+}
+
+.equal-button {
+    grid-column: span 3; 
+    text-align: center; 
+    padding: 10px 0; 
+    background: #28a745;
+    font-size: 18px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.equal-button:hover {
+    background: #218838;
+}
